@@ -1,0 +1,72 @@
+//- index.pug
+doctype html
+html
+  head
+    title SACHIN DANSE ACADYMY
+    style
+      include ../static/style.css
+  body
+    
+    nav#navbar 
+        ul 
+          div#logo 
+            img(src="/static/Ak.png") 
+            | HDA
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") Services]
+          li #[a(href="/contact") Contact Us ]
+
+    section#introsSection 
+        div Wellcome To My Danse House 
+        div.small Eat Sleep Danse Repeat 
+
+
+
+    section#missionSection 
+        h2   Our Mission
+
+
+        div#mission-card   
+           
+          div.card 
+            h3 Just Move Like This 
+              div.card-box 
+                div.card-img 
+                      img(src="/static/3.jpg") 
+                div.card-content 
+                  p Thi is the best danse adcamdy in world So. Join Now 
+
+          div.card 
+            h3 Any Body Can Danse 
+              div.card-box 
+                div.card-img 
+                      img(src="/static/8.jpg") 
+                div.card-content 
+                 p Thi is the best danse adcamdy in world So. Join Now 
+
+          div.card 
+            h3 Learn Danse Secret
+              div.card-box 
+                div.card-img 
+                      img(src="/static/9.jpg") 
+                div.card-content 
+                  p Thi is the best danse adcamdy in world So. Join Now 
+                  
+
+    section#sponserSection 
+        h3  Our Sponsers 
+        div#sponsors 
+            img(src="/static/3.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/4.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/8.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/9.jpg", alt="Sponser IMG" , class="sponser-img")
+
+    footer#footer
+        |Copyright 2021 @ www.MyDanseAcadmy.Com All Right Reserved !
+
+
+
+
+    script
+      include ../static/index.js 

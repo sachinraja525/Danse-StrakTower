@@ -1,0 +1,212 @@
+/* reset ccs is here  */
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: fantasy; */
+    padding: 0%;
+}
+
+/* Navbar  Section  ccs is here  */
+#navbar ul{
+    background-color: rgb(169, 236, 232);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+#logo {
+    display: flex;
+    height: 31px;
+    margin: 15px 4px;
+    justify-items: center;
+    margin-right: 38px;
+    font-size: 1.4rem;
+    align-items: center;
+} 
+
+
+#logo img{
+    margin: 0px 9px;
+    height: 55px;
+}
+
+
+
+#navbar li{
+ 
+    list-style: none;
+    margin: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 7px;
+    font-size: 1.8rem;
+    
+}
+
+#navbar li a {
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+
+#navbar li a:hover {
+   
+    color: red;
+    text-decoration: underline;
+    
+}
+
+
+
+
+/* Intro  Section  ccs is here  */
+#introsSection{
+ 
+    height: 328px;
+    background-color: red;
+    background: url('../static/business-slide-bg.jpg')no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    /* z-index: -1; */
+    /* opacity: 0.4; */
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #e30808;
+
+}
+
+
+#introsSection div.small{
+
+    color: blue;
+    font-size: 3rem;
+
+}
+
+/* Mission  Section  ccs is here  */
+
+#missionSection h2 {
+
+    color:green;
+    font-size: 2.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+
+}
+
+#mission-card{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.card {
+    border: 2px solid red;
+    margin: 21px 26px;
+    display: inline-block;
+    width: 27%;
+    height: 196px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+
+.card h3{
+
+  margin: 11px;
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+
+    height: 164px;
+    width: 133%;
+    padding: 13px 11px;
+
+}
+
+.card-content p{
+
+    font-family: initial;
+    margin: 31px;
+}
+
+
+
+#missionSection  {
+
+    height: 300px;
+    /* background-color: green; */
+
+}
+
+
+/* Sponsers Section  ccs is here  */
+
+#sponserSection{
+    height: 300px;
+    background-color: #b8b8b8;
+
+}
+
+#sponsors{
+    align-items: center;
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+}
+
+.sponser-img{
+    margin: 15px;
+    padding: 0px 21px;
+   
+    height: 143px;
+}
+
+#sponserSection h3{
+    color: #fc0000;
+    font-size: 2.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+
+}
+
+
+/*  Footer   ccs is here  */
+
+#footer{
+
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+/*  Commamn  ccs is here  */
+
+
+
+

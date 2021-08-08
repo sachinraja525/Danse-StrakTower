@@ -1,0 +1,57 @@
+extends base.pug 
+
+
+block scripts
+    scripts(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+
+
+    section#introsSection 
+        div Wellcome To My Danse House 
+        div.small Eat Sleep Danse Repeat 
+
+
+
+    section#missionSection 
+        h2   Our Mission
+
+
+        div#mission-card   
+           
+          div.card 
+            h3 Just Move Like This 
+              div.card-box 
+                div.card-img 
+                      img(src="/static/3.jpg") 
+                div.card-content 
+                  p Thi is the best danse adcamdy in world So. Join Now 
+
+          div.card 
+            h3 Any Body Can Danse 
+              div.card-box 
+                div.card-img 
+                      img(src="/static/8.jpg") 
+                div.card-content 
+                 p Thi is the best danse adcamdy in world So. Join Now 
+
+          div.card 
+            h3 Learn Danse Secret
+              div.card-box 
+                div.card-img 
+                      img(src="/static/9.jpg") 
+                div.card-content 
+                  p Thi is the best danse adcamdy in world So. Join Now 
+                  
+
+    section#sponserSection 
+        h3  Our Sponsers 
+        div#sponsors 
+            img(src="/static/3.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/4.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/8.jpg", alt="Sponser IMG" , class="sponser-img")
+            img(src="/static/9.jpg", alt="Sponser IMG" , class="sponser-img")
